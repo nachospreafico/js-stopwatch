@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nacho's Stopwatch</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>Workout Stopwatch</h1>
+    </header>
+
+    <main class="timer-container">
+      <section class="timer-screen">
+        <span id="timer-minutes">00</span>:<span id="timer-seconds">00</span
+        >.<span id="timer-milliseconds">00</span>
+      </section>
+      <section class="timer-controls">
+        <button class="start-btn" id="start-btn">Start</button>
+        <button class="lap-btn" id="lap-btn">Lap</button>
+        <button class="pause-btn" id="pause-btn">Pause</button>
+        <button class="reset-btn" id="reset-btn">Reset</button>
+      </section>
+      <section class="laps-container" id="laps-container"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
